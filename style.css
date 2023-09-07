@@ -86,5 +86,29 @@ color: rgb(56, 56, 132);
     margin-bottom: 30px;
     font-size: 40px;
    font-weight: 900;
-   font-family: 'Lato', sans-serif;
+}
+
+.section-mission_box p{
+    font-weight: 600;
+}
+
+/************* section about ******************/
+
+.section-about{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.section-about_box{
+    width: 70%;
+    margin: auto;
+}
+
+.section-about_box h2 {
+    margin-bottom: 30px;
+    font-size: 40px;
+   font-weight: 900;
+}
+
+.section-about_box p {
+    font-weight: 600;
 }
