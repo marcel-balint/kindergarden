@@ -112,3 +112,43 @@ color: rgb(56, 56, 132);
 .section-about_box p {
     font-weight: 600;
 }
+
+/************* section team ******************/
+
+.section-team {
+    background-color: #FF523D;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.section-team_box {
+    width: 70%;
+    margin: auto;
+}
+
+.section-team_box h2 {
+    margin-bottom: 30px;
+    font-size: 40px;
+   font-weight: 900;
+   color: #fff;
+}
+
+.section-team_images {
+    text-align: center;
+}
+
+.section-team_images h3 ,
+.section-team_images p {
+    color: #fff;
+}
+
+.section-team_images p {
+    font-weight: 500;
+}
+
+.section-team-image {
+    padding-bottom: 70px;
+}
+.section-team-image img {
+    height: 200px;
+}
