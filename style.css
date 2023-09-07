@@ -11,9 +11,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+
 nav{
     background-color: #fff;
     height: 70px;
+    width: 100vw;
 }
 
 nav ul {
@@ -30,4 +32,36 @@ nav ul li {
     font-weight: 600;
     font-size: 20px;
     cursor: pointer;
+}
+
+.header-text {
+    background: url("./img/banner.jpg") center;
+    height: 500px;
+}
+
+.header-text_box {
+    width: 70%;
+    margin: auto;
+    position: relative;
+}
+
+.header-text_box h1 {
+    font-size: 300%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 200px;
+    border-bottom: 5px solid #fff;
+    color: #fff;
+}
+
+.b-letter{
+color: yellow;
+}
+.i-letter {
+color: red;
+}
+
+.k-letter{
+color: rgb(56, 56, 132);
 }
