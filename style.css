@@ -117,8 +117,8 @@ color: rgb(56, 56, 132);
 
 .section-team {
     background-color: #FF523D;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 .section-team_box {
@@ -151,4 +151,42 @@ color: rgb(56, 56, 132);
 }
 .section-team-image img {
     height: 200px;
+}
+
+/************* footer styles ******************/
+footer {
+    background-color: #223C88;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.footer-content {
+    width: 70%;
+    margin: auto;
+    color: #fff;
+}
+.footer-content h2 {
+    margin-bottom: 30px;
+    font-size: 40px;
+   font-weight: 900;
+}
+
+.address-box{
+    margin-bottom: 20px;
+}
+.address-box p,
+.phone-box p {
+    margin-bottom: 5px;
+}
+
+.address-box p:not(:first-child){
+   font-weight: 600;
+}
+
+.phone-box p:last-child{
+    font-weight: 600;
+}
+.address-title,
+.phone-title{
+    font-weight: 900;
+    font-size: 25px;
 }
