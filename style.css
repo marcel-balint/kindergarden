@@ -65,3 +65,26 @@ color: red;
 .k-letter{
 color: rgb(56, 56, 132);
 }
+/************* section mission ******************/
+
+.section-mission{
+    background-color:#FFE964;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-mission_box{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.section-mission_box h2 {
+    margin-bottom: 30px;
+    font-size: 40px;
+   font-weight: 900;
+   font-family: 'Lato', sans-serif;
+}
